@@ -1,6 +1,6 @@
 # Wiki Mundo
 
-O Wiki Mundo foi desenvolvido como parte integrante do currículo da disciplina de Programação para a Internet II, com o propósito de proporcionar uma experiência prática e aprofundada na utilização de APIs (Interfaces de Programação de Aplicações).
+O Wiki Mundo foi desenvolvido como parte integrante do currículo da disciplina de Programação para a Internet II, com o propósito de proporcionar uma experiência prática e aprofundada na utilização de APIs (Interfaces de Programação de Aplicações).<br>
 Acesse: https://jsevitor.github.io/wiki-mundo/
 
 ## Desafio
