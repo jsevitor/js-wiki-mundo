@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Nabla&family=Poppins:wght@400;600&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	color: #031926;
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	background-color: #f4e9cd;
+	/* background: linear-gradient(320deg, rgb(244, 233, 205, 0.8), transparent 70%), url('bg.jpg'); */
+	background-size: cover;
+	background-position: center;
+	backdrop-filter: blur(20px);
+	height: 98.5%;
+}
+
+
+/* TOPO */
+.header {
+	min-height: 12%;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-around;
+	align-items: center;
+	background-color: #77aca2;
+	box-shadow: 1px 1px 5px #468189;
+	padding: 1rem;
+}
+.header .header-title span {
+	font-size: 3rem;
+	
+	font-family: 'Nabla', cursive;
+}
+
+.header .select-field select {
+	border-radius: 1rem;
+	font-size: 1.3rem;
+	padding: 0.5rem;
+	padding-left: 1rem;
+	/* margin-bottom: 1.5rem; */
+	color: #031926;
+	border: none;
+	outline-color: #9dbebb;
+}
+
+/* INFORMAÇÕES DO PAIS */
+.container {
+	min-height: 82%;
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center; 
+	align-items: center;
+	margin: 2rem 8rem;
+	padding: 2rem;
+}
+.container #bandeira {
+	padding: 2rem;
+	height: 25rem;
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
+.container #bandeira img {
+	display: flex;
+	box-shadow: 0px 0px 20px grey;
+	width: 30rem;
+	height: 18rem;
+	border-radius: 0.8rem;
+}
+.container .infos {
+	display: none;
+}
+.container .infos {
+	width: 30rem;
+	height: 25rem;
+	padding: 2rem;
+	color: #FDFDFF;
+	border-left: 1px solid #468189;
+	border-top: 1px solid #468189;
+	border-radius: 0.8rem 0 0 0;
+}
+.infos #nome {
+	font-size: 2.5rem;
+	font-family: 'Mooli', sans-serif;
+	color: #468189;
+	margin-bottom: 1rem;
+	text-shadow: 2px 2px;
+}
+.container .infos div {
+	font-weight: bold;
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+}
+.container .infos span {
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+/* FRONTEIRAS */
+.container .fronteiras {
+	grid-column: 1 / span 2;
+	border-radius: 1rem;
+	padding: 2rem;
+	display: grid;
+	grid-template-rows: auto auto;
+	gap: 1rem;
+	visibility: hidden;
+	text-align: center;
+}
+.container #tituloFronteira {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #468189;
+	border-bottom: 1px solid #468189;
+}
+.container .paisesFronteira {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-size: 1.2rem;
+	gap: 1rem;
+	flex-basis: 3;	
+}
+.container .paisesFronteira img {
+	width: 2em;
+	height: 1em;
+	border-radius: 0.1rem;
+}
+.container .paisesFront p {
+	background-image: linear-gradient(90deg, #4c726f, #4c726f);
+	background-repeat: no-repeat;
+	background-size: 0% 1px;
+	background-position: left bottom;
+	transition: background-size 500ms ease;
+	cursor: pointer;
+}
+.container .paisesFront p:hover {
+	background-size: 100% 1px;
+	color: #91b5ac;
+	transition: 500ms;
+}
+
+.attribution { 
+	font-size: 10px; 
+	text-align: center;
+}
+
+.attribution a { 
+	font-size: 10px; 
+	color: hsl(228, 45%, 44%); 
+}
